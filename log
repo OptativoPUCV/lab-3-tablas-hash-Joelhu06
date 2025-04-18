@@ -80,3 +80,12 @@ hashmap.c:103:22: error: return from incompatible pointer type [-Werror=incompat
                 ~~~~~~^~~~~~~~
 cc1.exe: all warnings being treated as errors
 491a751
+Fri, Apr 18, 2025 12:42:29 PM: 
+Compilation failed
+In file included from test.c:4:0:
+hashmap.c: In function 'firstMap':
+hashmap.c:103:22: error: return from incompatible pointer type [-Werror=incompatible-pointer-types]
+         return (*map).buckets;
+                ~~~~~~^~~~~~~~
+cc1.exe: all warnings being treated as errors
+c21ed16
