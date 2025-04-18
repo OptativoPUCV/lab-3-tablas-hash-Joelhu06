@@ -43,7 +43,7 @@ void insertMap(HashMap * map, char * key, void * value)
 {
     int i = hash(key, (*map).capacity);
 
-    if ((*map).buckets[i] != NULL)
+    if ((*map).buckets[i] != NULL && (*map).buckets[i]->key != NULL)
         i = (i + 1) % (*map).capacity;
 
     Pair *par = createPair(key, value);
