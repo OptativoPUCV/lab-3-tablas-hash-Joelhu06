@@ -100,7 +100,7 @@ Pair * firstMap(HashMap * map)
     while ((*map).buckets[i]->key != NULL)
     {
         (*map).current = i;
-        return (*map).buckets;
+        return (*map).buckets[i];
         i++;
     }
     return NULL;
