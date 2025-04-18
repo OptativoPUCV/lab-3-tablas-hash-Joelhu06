@@ -69,3 +69,14 @@ Fri, Apr 18, 2025 12:37:33 PM:
  tests:  11|2
 total_score: 50/70
 5a12db6
+Fri, Apr 18, 2025 12:42:13 PM: 
+ hashmap.c | 11 +++++++++--
+ 1 file changed, 9 insertions(+), 2 deletions(-)
+Compilation failed
+In file included from test.c:4:0:
+hashmap.c: In function 'firstMap':
+hashmap.c:103:22: error: return from incompatible pointer type [-Werror=incompatible-pointer-types]
+         return (*map).buckets;
+                ~~~~~~^~~~~~~~
+cc1.exe: all warnings being treated as errors
+491a751
