@@ -107,3 +107,9 @@ Fri, Apr 18, 2025 12:44:52 PM:
  tests:  13|2
 total_score: 50/70
 a879f4c
+Fri, Apr 18, 2025 12:46:41 PM: 
+ hashmap.c | 14 ++++++++++++--
+ 1 file changed, 12 insertions(+), 2 deletions(-)
+ tests:  16|1
+total_score: 60/70
+2b2439f
