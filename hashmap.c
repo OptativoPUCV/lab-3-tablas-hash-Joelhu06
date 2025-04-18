@@ -53,7 +53,7 @@ void insertMap(HashMap * map, char * key, void * value)
 
     Pair *par = createPair(key, value);
     (*map).buckets[i] = par;
-    (*map).current += 1;
+    (*map).current = i;
     (*map).size++;
 }
 
